@@ -37,7 +37,7 @@ namespace Repository
             };
             var result=await _myDbContext.Tasks.AddAsync(task);
             await _myDbContext.SaveChangesAsync();
-            return result;
+            return null;
 
         }
 
