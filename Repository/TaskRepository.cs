@@ -1,4 +1,5 @@
-﻿using DTOs.RequestDTO;
+﻿using AutoMapper;
+using DTOs.RequestDTO;
 using DTOs.ResponseDTO;
 using Repository.Data;
 using Repository.Interface;
@@ -14,10 +15,12 @@ namespace Repository
     public class TaskRepository : ITaskRepository
     {
         private readonly MyDbContext _myDbContext;
+        private readonly IMapper _mapper;
 
-        public TaskRepository(MyDbContext myDbContext)
+        public TaskRepository(MyDbContext myDbContext,IMapper mapper)
         {
             _myDbContext = myDbContext;
+            _mapper = mapper;
         }
 
         public async Task<TaskDTO> CreateAsync(TaskCreateDTO input)
@@ -32,28 +35,64 @@ namespace Repository
                 Status=DTOs.Enums.TaskStatuses.ToDo,
                 DueDate=input.DueDate,
                 CreatedAt=DateTime.Now,
+                //CreatedBy=input.CreatedBy
+                UpdatedAt=DateTime.Now,
+                UpdatedBy=input.UpdatedBy
                 
 
             };
             var result=await _myDbContext.Tasks.AddAsync(task);
             await _myDbContext.SaveChangesAsync();
-            return null;
+            return _mapper.Map<TaskDTO>(result);
 
         }
 
-        public Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(Guid id)
         {
-            throw new NotImplementedException();
+            var task = await _myDbContext.Tasks.FindAsync(id);
+            if (task != null)
+            {
+                _myDbContext.Tasks.Remove(task);
+                await _myDbContext.SaveChangesAsync();
+            }
+            else
+            {
+                throw new KeyNotFoundException("Task not found.");
+            }
         }
 
-        public Task<TaskDTO> GetAsync(Guid id)
+        public async Task<TaskDTO> GetAsync(Guid id)
         {
-            throw new NotImplementedException();
+            var task = await _myDbContext.Tasks.FindAsync(id);
+            if (task == null)
+            {
+                throw new KeyNotFoundException("Task not found.");
+            }
+
+            return _mapper.Map<TaskDTO>(task);
         }
 
-        public Task<TaskDTO> UpdateAsync(TaskUpdateDTO input)
+        public async Task<TaskDTO> UpdateAsync(Guid id,TaskUpdateDTO input)
         {
-            throw new NotImplementedException();
+            var task = await _myDbContext.Tasks.FindAsync(id);
+            if (task == null)
+            {
+                throw new KeyNotFoundException("Task not found.");
+            }
+
+            // Update task properties
+            task.Name = input.Name;
+            task.AssignedToUserId = input.AssignedToUserId;
+            task.Description = input.Description;
+            task.Priority = input.Priority;
+            task.Status = input.Status; // Make sure TaskStatuses enum is handled properly
+            task.DueDate = input.DueDate;
+            task.UpdatedAt = DateTime.Now;
+            task.UpdatedBy = input.UpdatedBy;
+
+            _myDbContext.Tasks.Update(task);
+            await _myDbContext.SaveChangesAsync();
+            return _mapper.Map<TaskDTO>(task);
         }
     }
 }

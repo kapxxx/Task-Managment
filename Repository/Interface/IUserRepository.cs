@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Interface
 {
-    public interface IUserInterface
+    public interface IUserRepository
     {
         Task<GetUserByTaskStatus> GetUserByTaskStatus(int status);
     }

@@ -1,12 +1,16 @@
 using Manager;
+using Manager.Interface;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Repository;
 using Repository.Data;
+using Repository.Interface;
 using Repository.Models;
 using System.Text;
+using Task_managment.AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -56,7 +60,9 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
 builder.Services.AddScoped<ISecurityStampValidator, SecurityStampValidator<ApplicationUser>>(); // Register SecurityStampValidator
-
+builder.Services.AddScoped<ITaskRepository, TaskRepository>(); // Register TaskRepository
+builder.Services.AddScoped<ITaskManager, TaskManager>(); 
+builder.Services.AddAutoMapper(typeof(MappingProfiles)); // or use Assembly.GetExecutingAssembly()
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
