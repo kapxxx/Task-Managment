@@ -1,0 +1,33 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.userprefs
+*.sln.ide
+*.sln.docstates
+
+# NuGet Packages
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IDE specific files
+.idea/
+.vscode/
