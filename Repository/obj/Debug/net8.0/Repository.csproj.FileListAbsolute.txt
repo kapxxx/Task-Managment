@@ -1,0 +1,17 @@
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\bin\Debug\net8.0\Repository.deps.json
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\bin\Debug\net8.0\Repository.dll
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\bin\Debug\net8.0\Repository.pdb
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\bin\Debug\net8.0\DTOs.dll
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\bin\Debug\net8.0\DTOs.pdb
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\Repository.dll
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\Repository.pdb
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+C:\Users\Kapxx Cool\source\repos\Task managment\Repository\obj\Debug\net8.0\ref\Repository.dll

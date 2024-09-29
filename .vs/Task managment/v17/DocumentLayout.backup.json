@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C06EBE0-D638-4D1A-BDE6-24FA24B3D5E1}|Task managment\\Task managment.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\task managment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C06EBE0-D638-4D1A-BDE6-24FA24B3D5E1}|Task managment\\Task managment.csproj|solutionrelative:task managment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Migrations\\20240928164516_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\Migrations\\20240928164516_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\repository\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|solutionrelative:repository\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\repository\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|solutionrelative:repository\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\repository\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|solutionrelative:repository\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C06EBE0-D638-4D1A-BDE6-24FA24B3D5E1}|Task managment\\Task managment.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\task managment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C06EBE0-D638-4D1A-BDE6-24FA24B3D5E1}|Task managment\\Task managment.csproj|solutionrelative:task managment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\repository\\models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|solutionrelative:repository\\models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\repository\\models\\auditing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EAE1C-1BD7-44D7-B787-682865AB02D1}|Repository\\Repository.csproj|solutionrelative:repository\\models\\auditing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B9C1CA-95B7-4C37-8D7C-585B39A59433}|DTOs\\DTOs.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\dtos\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B9C1CA-95B7-4C37-8D7C-585B39A59433}|DTOs\\DTOs.csproj|solutionrelative:dtos\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B9C1CA-95B7-4C37-8D7C-585B39A59433}|DTOs\\DTOs.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\dtos\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B9C1CA-95B7-4C37-8D7C-585B39A59433}|DTOs\\DTOs.csproj|solutionrelative:dtos\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA0BB49-EB75-4641-A6A4-7C9A3B88B52D}|Manager\\Manager.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\manager\\manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DA0BB49-EB75-4641-A6A4-7C9A3B88B52D}|Manager\\Manager.csproj|solutionrelative:manager\\manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B9C1CA-95B7-4C37-8D7C-585B39A59433}|DTOs\\DTOs.csproj|c:\\users\\kapxx cool\\source\\repos\\task managment\\dtos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B9C1CA-95B7-4C37-8D7C-585B39A59433}|DTOs\\DTOs.csproj|solutionrelative:dtos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240928164516_one.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Migrations\\20240928164516_one.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\20240928164516_one.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Migrations\\20240928164516_one.cs",
+              "RelativeToolTip": "Repository\\Migrations\\20240928164516_one.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T16:45:16.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Auditing.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Models\\Auditing.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\Auditing.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Models\\Auditing.cs",
+              "RelativeToolTip": "Repository\\Models\\Auditing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:55:01.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Task managment\\appsettings.json",
+              "RelativeDocumentMoniker": "Task managment\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Task managment\\appsettings.json",
+              "RelativeToolTip": "Task managment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-28T15:51:15.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Task managment\\Program.cs",
+              "RelativeDocumentMoniker": "Task managment\\Program.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Task managment\\Program.cs",
+              "RelativeToolTip": "Task managment\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:48:40.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\Data\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "Repository\\Data\\MyDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:35:58.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Comments.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Models\\Comments.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\Comments.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Models\\Comments.cs",
+              "RelativeToolTip": "Repository\\Models\\Comments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:20:07.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Models\\Users.cs",
+              "RelativeToolTip": "Repository\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:17:38.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Models\\Tasks.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\Tasks.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Repository\\Models\\Tasks.cs",
+              "RelativeToolTip": "Repository\\Models\\Tasks.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:19:04.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\DTOs\\Enums\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "DTOs\\Enums\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\DTOs\\Enums\\TaskStatus.cs",
+              "RelativeToolTip": "DTOs\\Enums\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:30:45.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskPriority.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\DTOs\\Enums\\TaskPriority.cs",
+              "RelativeDocumentMoniker": "DTOs\\Enums\\TaskPriority.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\DTOs\\Enums\\TaskPriority.cs",
+              "RelativeToolTip": "DTOs\\Enums\\TaskPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:30:56.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Manager",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Manager\\Manager.csproj",
+              "RelativeDocumentMoniker": "Manager\\Manager.csproj",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\Manager\\Manager.csproj",
+              "RelativeToolTip": "Manager\\Manager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-28T15:17:19.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\DTOs\\Class1.cs",
+              "RelativeDocumentMoniker": "DTOs\\Class1.cs",
+              "ToolTip": "C:\\Users\\Kapxx Cool\\source\\repos\\Task managment\\DTOs\\Class1.cs",
+              "RelativeToolTip": "DTOs\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:14:57.98Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
