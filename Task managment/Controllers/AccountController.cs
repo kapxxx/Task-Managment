@@ -1,5 +1,6 @@
 ﻿using DTOs.RequestDTO;
 using Manager;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -59,7 +60,27 @@ namespace Task_managment.Controllers
 				return BadRequest(new { Errors = errors });
 			}
 
+
 			return BadRequest("Invalid data submitted.");
 		}
-	}
+		//[Authorize]
+		[HttpGet]
+        public async Task<IActionResult> GetUserDetails(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(new
+            {
+                
+                user.UserName,
+                user.Email,
+				user.PhoneNumber,				
+                
+            });
+        }
+    }
 }
