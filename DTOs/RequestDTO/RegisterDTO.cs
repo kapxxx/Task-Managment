@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DTOs.RequestDTO
 {
-	public class RegisterDTO
-	{
+	public class RegisterDTO: AuditingDTO
+    {
 		public string UserName { get; set; }
 		public string Email { get; set; }
 		public string Password { get; set; }

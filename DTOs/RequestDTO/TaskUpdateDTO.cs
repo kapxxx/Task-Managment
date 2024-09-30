@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DTOs.RequestDTO
 {
-    public class TaskUpdateDTO
+    public class TaskUpdateDTO: AuditingDTO
     {
         
         public string Name { get; set; }

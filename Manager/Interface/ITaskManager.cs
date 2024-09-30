@@ -11,7 +11,7 @@ namespace Manager.Interface
     public interface ITaskManager
     {
         Task<TaskDTO> CreateAsync(TaskCreateDTO input);
-        Task<TaskDTO> UpdateAsync(TaskUpdateDTO input);
+        Task<TaskDTO> UpdateAsync(Guid id, TaskUpdateDTO input);
         Task<TaskDTO> GetAsync(Guid id);
         Task DeleteAsync(Guid id);
     }
