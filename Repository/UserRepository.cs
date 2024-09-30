@@ -25,6 +25,7 @@ namespace Repository
         {
             var parameters = new[]
    {
+        new SqlParameter("@TaskTitle", input.FilterText ?? (object)DBNull.Value),
         new SqlParameter("@Username", input.FilterText ?? (object)DBNull.Value),
         new SqlParameter("@Email", input.FilterText ?? (object)DBNull.Value),
         new SqlParameter("@PhoneNumber", input.FilterText ?? (object)DBNull.Value),
@@ -38,7 +39,7 @@ namespace Repository
         new SqlParameter("@PageSize", input.PageSize)
     };
             var result= await _myDbContext.Set<UserTaskDTO>()
-        .FromSqlRaw("EXEC GetUsersAndTasks @Username, @Email, @PhoneNumber, @SortColumn, @SortOrder, @TaskStatus, @TaskPriority, @StartDate, @EndDate, @PageNumber, @PageSize", parameters)
+        .FromSqlRaw("EXEC GetUsersAndTasks @TaskTitle, @Username, @Email, @PhoneNumber, @SortColumn, @SortOrder, @TaskStatus, @TaskPriority, @StartDate, @EndDate, @PageNumber, @PageSize", parameters)
         .ToListAsync();
             return result;
 
