@@ -9,17 +9,17 @@ namespace DTOs.ResponseDTO
    
         public class UserTaskDTO
         {
-            public string UserName { get; set; }
-            public string Email { get; set; }
-            public string PhoneNumber { get; set; }
+            public string? UserName { get; set; }
+            public string? Email { get; set; }
+            public string? PhoneNumber { get; set; }
             // Add other properties from AspNetUsers
 
 
-            public string TaskName { get; set; }
-            public string Description { get; set; }
-            public DateTime DueDate { get; set; }
-            public int Status { get; set; }
-            public int Priority { get; set; }
+            public string? TaskName { get; set; }
+            public string? Description { get; set; }
+            public DateTime? DueDate { get; set; }
+            public int? TaskStatus { get; set; }
+            public int? TaskPriority { get; set; }
             // Add other properties from Tasks
         
 
