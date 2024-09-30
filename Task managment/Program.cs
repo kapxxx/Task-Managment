@@ -60,8 +60,11 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
 builder.Services.AddScoped<ISecurityStampValidator, SecurityStampValidator<ApplicationUser>>(); // Register SecurityStampValidator
+
 builder.Services.AddScoped<ITaskRepository, TaskRepository>(); // Register TaskRepository
-builder.Services.AddScoped<ITaskManager, TaskManager>(); 
+builder.Services.AddScoped<ITaskManager, TaskManager>();
+builder.Services.AddScoped<IUserRepository, UserRepository>(); // Register TaskRepository
+builder.Services.AddScoped<IUserManager, UserManager>(); 
 builder.Services.AddAutoMapper(typeof(MappingProfiles)); // or use Assembly.GetExecutingAssembly()
 var app = builder.Build();
 

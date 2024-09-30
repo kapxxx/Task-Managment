@@ -43,7 +43,7 @@ namespace Repository
             };
             var result=await _myDbContext.Tasks.AddAsync(task);
             await _myDbContext.SaveChangesAsync();
-            return _mapper.Map<TaskDTO>(result);
+            return _mapper.Map<TaskDTO>(result.Entity);
 
         }
 

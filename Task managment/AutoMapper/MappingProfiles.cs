@@ -6,7 +6,7 @@ namespace Task_managment.AutoMapper
 {
     public class MappingProfiles : Profile
     {
-        protected MappingProfiles()
+        public MappingProfiles()
         {
             CreateMap<Tasks, TaskDTO>().ReverseMap();
             

@@ -1,4 +1,5 @@
-﻿using DTOs.ResponseDTO;
+﻿using DTOs.RequestDTO;
+using DTOs.ResponseDTO;
 using Repository.Models;
 using System;
 using System.Collections.Generic;
@@ -11,5 +12,6 @@ namespace Repository.Interface
     public interface IUserRepository
     {
         Task<GetUserByTaskStatus> GetUserByTaskStatus(int status);
+        Task<List<UserTaskDTO>> GetAllUserTasks(UserTaskFilterDTO input);
     }
 }

@@ -10,6 +10,7 @@ namespace Manager.Interface
 {
 	public interface IUserManager
 	{
-		public UserDto UserFindByName (LoginDto loginDto);
-	}
+        Task<List<UserTaskDTO>> GetAllUserTasks(UserTaskFilterDTO input);
+
+    }
 }
