@@ -14,5 +14,6 @@ namespace Manager.Interface
         Task<TaskDTO> UpdateAsync(Guid id, TaskUpdateDTO input);
         Task<TaskDTO> GetAsync(Guid id);
         Task DeleteAsync(Guid id);
+        Task<PagedResult<TaskDTO>> GetAllByUserIdAsync(Guid? id, GetTasksByUserIdDto input);
     }
 }

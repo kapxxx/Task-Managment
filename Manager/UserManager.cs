@@ -19,7 +19,7 @@ namespace Manager
             _userRepository = userRepository;
         }
 
-        public async Task<List<UserTaskDTO>> GetAllUserTasks(UserTaskFilterDTO input)
+        public async Task<PagedResult<UserTaskDTO>> GetAllUserTasks(UserTaskFilterDTO input)
         {
             return await _userRepository.GetAllUserTasks(input);
         }

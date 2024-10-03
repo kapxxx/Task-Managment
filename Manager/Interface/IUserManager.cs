@@ -10,7 +10,7 @@ namespace Manager.Interface
 {
 	public interface IUserManager
 	{
-        Task<List<UserTaskDTO>> GetAllUserTasks(UserTaskFilterDTO input);
+        Task<PagedResult<UserTaskDTO>> GetAllUserTasks(UserTaskFilterDTO input);
 
     }
 }

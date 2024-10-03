@@ -29,6 +29,11 @@ namespace Manager
             await _taskRepository.DeleteAsync(id);  
         }
 
+        public async Task<PagedResult<TaskDTO>> GetAllByUserIdAsync(Guid? id, GetTasksByUserIdDto input)
+        {
+            return await _taskRepository.GetAllByUserIdAsync(id, input);
+        }
+
         public async Task<TaskDTO> GetAsync(Guid id)
         {
             return await _taskRepository.GetAsync(id);

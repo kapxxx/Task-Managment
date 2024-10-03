@@ -80,5 +80,42 @@ namespace Task_managment.Controllers
                 return NotFound("Task not found.");
             }
         }
+        [HttpGet("GetUserTasks")]
+        public async Task<ActionResult<List<TaskDTO>>> GetUserTasks(
+        [FromQuery] Guid? userId, // User ID to filter tasks by
+        [FromQuery] string taskName = null,
+        [FromQuery] string description = null,
+        [FromQuery] string sortColumn = "Name", // Default sort column
+        [FromQuery] string sortOrder = "ASC",   // Default sort order
+        [FromQuery] int? taskStatus = null,
+        [FromQuery] int? taskPriority = null,
+        [FromQuery] DateTime? startDate = null,
+        [FromQuery] DateTime? endDate = null,
+        [FromQuery] int pageNumber = 1,
+        [FromQuery] int pageSize = 10)
+        {
+            // Create filter DTO
+            var filterDto = new GetTasksByUserIdDto
+            {
+                TaskName = taskName,
+                Description = description,
+                TaskStatus = taskStatus,
+                TaskPriority = taskPriority,
+                StartDate = startDate,
+                EndDate = endDate,
+                SortColumn = sortColumn,
+                SortOrder = sortOrder,
+                PageNumber = pageNumber,
+                PageSize = pageSize
+            };
+
+            // Call service to get tasks
+            var tasks = await _taskManager.GetAllByUserIdAsync(userId, filterDto);
+
+            // Check if tasks are found
+           
+
+            return Ok(tasks); // Return the list of tasks with 200 OK
+        }
     }
 }

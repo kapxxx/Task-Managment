@@ -25,6 +25,9 @@ namespace Repository.Data
             modelBuilder.Entity<UserTaskDTO>()
            .HasNoKey()
            .ToView(null);
+            modelBuilder.Entity<TaskDTO>()
+          .HasNoKey()
+          .ToView(null);
 
 
             modelBuilder.Entity<ApplicationUser>()

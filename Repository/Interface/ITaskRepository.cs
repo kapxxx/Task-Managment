@@ -14,5 +14,7 @@ namespace Repository.Interface
         Task<TaskDTO> UpdateAsync(Guid id,TaskUpdateDTO input);
         Task<TaskDTO> GetAsync(Guid id);
         Task DeleteAsync(Guid id);
+        public Task<List<TaskDTO>> GetAllAsync();
+        Task<PagedResult<TaskDTO>> GetAllByUserIdAsync(Guid? id, GetTasksByUserIdDto input);
     }
 }

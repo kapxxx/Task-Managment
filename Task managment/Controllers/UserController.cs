@@ -17,7 +17,7 @@ namespace Task_managment.Controllers
             _userManager = userManager;
         }
         [HttpGet]
-        public async Task<List<UserTaskDTO>> GetUsersAndTasks([FromQuery] string filterText = null,
+        public async Task<IActionResult> GetUsersAndTasks([FromQuery] string filterText = null,
             [FromQuery] string sortColumn = "UserName",
             [FromQuery] string sortOrder = "ASC",
             [FromQuery] int? taskStatus = null,
@@ -39,7 +39,7 @@ namespace Task_managment.Controllers
                 PageNumber = pageNumber,
                 PageSize = pageSize
             };
-            return await _userManager.GetAllUserTasks(filterDto);
+            return Ok(await _userManager.GetAllUserTasks(filterDto));
         }
     }
 }

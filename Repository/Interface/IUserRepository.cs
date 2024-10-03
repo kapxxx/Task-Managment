@@ -12,6 +12,6 @@ namespace Repository.Interface
     public interface IUserRepository
     {
         Task<GetUserByTaskStatus> GetUserByTaskStatus(int status);
-        Task<List<UserTaskDTO>> GetAllUserTasks(UserTaskFilterDTO input);
+        Task<PagedResult<UserTaskDTO>> GetAllUserTasks(UserTaskFilterDTO input);
     }
 }
